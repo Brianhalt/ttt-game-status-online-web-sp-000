@@ -1,5 +1,4 @@
 # Helper Method
-require 'pry'
 def position_taken?(board, index)
   !(board[index].nil? || board[index] == " ")
 end
@@ -71,6 +70,6 @@ end
 
 def winner?(board)
   if won?(board) == true
-    return WIN_COMBINATIONS(0)
+    return 
   end
 end
