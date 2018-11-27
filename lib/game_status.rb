@@ -33,7 +33,7 @@ def won? (board) # asignes each winning combination an index
     elsif position_1 == "O" && position_2 == "O" && position_3 == "O"
       return win_combination  #return the win_combination indexes that won.
     elsif full?(board) == true
-      return false  
+      return false
     else
       false
     end
