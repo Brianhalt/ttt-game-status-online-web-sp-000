@@ -31,7 +31,7 @@ def won? (board) # asignes each winning combination an index
     elsif full?(board) == false
       false
     else
-      false  
+      false
     end
   end
 end
