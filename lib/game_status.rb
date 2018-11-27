@@ -39,6 +39,13 @@ def won? (board) # asignes each winning combination an index
   end
 end
 
+def empty? (board)
+  board.all? do |position|
+    position == " " || position == ""
+  end
+end
+
+
 def full? (board)
   board.all? do |position|
     position == "X" || position == "O"
